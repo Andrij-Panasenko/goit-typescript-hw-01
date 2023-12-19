@@ -92,7 +92,7 @@
 type User = { 
    name: string;
    age: number;
-   role?: string;
+   role?: string; //опційна типізація
 }
 
 const admin: User = {
